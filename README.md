@@ -26,7 +26,7 @@ localhost:3000/api/sendUserOp
       "verificationGasAndData": "0x49628fd1471006c1482da88028e9ce4dbb080b815c9b0344d39e5a8e6ec1419f",
       "maxFeePerGas": 10000000000,
       "maxPriorityFeePerGas": 1000000000,
-      "paymaster": "0xce41487e69B88485c6a1346C245aFb7411F163D2",
+      "paymasterAndData": "0x",
       "signature": "0x49628fd1471006c1482da88028e9ce4dbb080b815c9b0344d39e5a8e6ec1419f"
     }],
     "beneficiary": "0xe12392E42bd36ce2955a91c87AdF03413B73b67c"

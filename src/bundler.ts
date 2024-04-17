@@ -41,7 +41,7 @@ const entryPointContract = new ethers.Contract(
         'bytes32 verificationGasAndData, ' +
         'uint256 maxFeePerGas, ' +
         'uint256 maxPriorityFeePerGas, ' +
-        'address paymaster, ' +
+        'bytes paymasterAndData, ' +
         'bytes signature' +
         ')[] ops, address payable beneficiary)'
     ],
