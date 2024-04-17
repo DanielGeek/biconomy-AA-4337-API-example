@@ -1,0 +1,23 @@
+{
+  "name": "biconomy-aa-4337-api-example",
+  "version": "1.0.0",
+  "description": "Mnimal bundler node that is capable of accepting ERC-4337 UserOperations, execute them on supported chain and return the transaction hash in response.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ethers": "5.6.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
