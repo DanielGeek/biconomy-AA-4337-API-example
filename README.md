@@ -3,14 +3,16 @@
 Mnimal bundler node that is capable of accepting ERC-4337 UserOperations, execute them on supported chain and return the transaction hash in response.
 
 # before run the project you will need create a .env file and add the fallowing variables
-- PRIVATE_KEY (your wallet private key)
+- PRIVATE_KEY_1 (your wallet private key)
+- PRIVATE_KEY_2 (your wallet private key)
+- PRIVATE_KEY_3 (your wallet private key)
 - ALCHEMY_API_KEY (alchemy node api key)
 
 
 # How run the API
 `npm i`
 `npx tsc`
-`node dist/src/index.js`
+`node src/index.js`
 
 # API endpoint
 localhost:3000/api/sendUserOp
